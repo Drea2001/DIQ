@@ -1,0 +1,19 @@
+NUMBER,DATASET,FULL NAME,LINK DOWNLOAD,REFERENCE,READ CSV SETTING (N.B. some datasets require a special setting for the pandas read_csv function)
+,,,,,
+1,IMDB,movies,IMDB,https://www.kaggle.com/datasets/bharatnatrayn/movies-dataset-for-feature-extracion-prediction,
+2,FIFA,fifa,FIFA,https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring,
+3,SHARK,attacks,SHARK,https://www.kaggle.com/datasets/ncsaayali/shark-attack-dataset,
+,,,,,
+4,MET,met_museum_objects,MET,https://www.kaggle.com/datasets/metmuseum/the-met?select=objects,
+5,MOMA,"artists, artworks",MOMA,https://www.kaggle.com/datasets/momanyc/museum-collection?select=artworks.csv,
+6,PERMITS,building_permits,PERMITS,https://www.kaggle.com/datasets/aparnashastry/building-permit-applications-data,
+7,TATE,"tate_artist_data, tate_artwork_data",TATE,https://github.com/tategallery/collection,
+,,,,,
+8,ATTIVITA',Comune-di-Milano-Attivita-commerciali-di-media-e-grande-distribuzione,ATTIVITA,http://www.datiopen.it/it/opendata/Comune_di_Milano_Attivit_commerciali_di_media_e_grande_distribuzione,"read_csv('italian/Comune-di-Milano-Attivita-commerciali-di-media-e-grande-distribuzione.csv',sep=';',encoding='utf-16')"
+9,ESERCIZI 1,Comune-di-Milano-Esercizi-di-vicinato-in-sede-fissa,ESERCIZI 1,http://www.datiopen.it/it/opendata/Comune_di_Milano_Esercizi_di_vicinato_in_sede_fissa,"read_csv('italian/Comune-di-Milano-Esercizi-di-vicinato-in-sede-fissa.csv',sep=';',encoding='unicode_escape')"
+10,ESERCIZI 2,Comune-di-Milano-Pubblici-esercizi-fuori-piano,ESERCIZI 2,http://www.datiopen.it/it/opendata/Comune_di_Milano_Pubblici_esercizi_fuori_piano,"read_csv('italian/Comune-di-Milano-Pubblici-esercizi-fuori-piano.csv',sep=';',encoding='utf-16')"
+11,ESERCIZI 3,Comune-di-Milano-Pubblici-esercizi,ESERCIZI 3,http://www.datiopen.it/it/opendata/Comune_di_Milano_Pubblici_esercizi,"read_csv('italian/Comune-di-Milano-Pubblici-esercizi.csv',sep=';',encoding='utf-16')"
+12,SERVIZI,Comune-di-Milano-Servizi-alla-persona-parrucchieri-estetisti,SERVIZI,http://www.datiopen.it/it/opendata/Comune_di_Milano_Esercizi_commerciali_Servizi_alla_persona_parrucchieri_estetisti_,"read_csv('italian/Comune-di-Milano-Servizi-alla-persona-parrucchieri-estetisti.csv',sep=';',encoding='unicode_escape')"
+13,STRUTTURE,Comune-di-Milano-Strutture-ricettive-alberghiere,STRUTTURE,http://www.datiopen.it/it/opendata/Comune_di_Milano_Strutture_ricettive_alberghiere,"pd.read_csv('italian/Comune-di-Milano-Strutture-ricettive-alberghiere.csv',sep=';',encoding='unicode_escape')"
+,,,,,
+14,CRIMES,"(crimes-in-boston) crime, offense_codes",CRIMES,https://www.kaggle.com/datasets/ankkur13/boston-crime-data,"read_csv('crimes-in-boston/crime.csv',encoding='unicode_escape')"
